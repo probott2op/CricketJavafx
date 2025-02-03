@@ -1,0 +1,36 @@
+/* styles.css */
+.root {
+    -fx-font-family: "Arial";
+    -fx-base: #dfe4ea;
+}
+
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-padding: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #bdc3c7;
+}
+
+.dialog-pane {
+    -fx-background-color: #ecf0f1;
+}
+
+.alert {
+    -fx-font-size: 14px;
+}
